@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C2B3D;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+      
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 1083px;
+    height: 30px;
+    margin-left: auto ;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul :hover{
+    color: #00BFA6;
+    font-size: large;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 1092px;
+    height: 283px;
+    margin:101px auto 157px;
+    text-shadow: rgb(6, 6, 6) 1px 2px 5px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.presentation p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.presentation span{
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #00BFA6;
+    mix-blend-mode: normal;
+}
+
+footer{
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a:hover{
+    color: #00BFA6;
+    font-size: large;
+}
+hr{
+    color: #00BFA6;
+    border: 1px solid;
+    position: center;
+    width: 568px;
+    margin:auto;     
+}
+
+.cadeado{
+    width: 51px;
+    height: 62px;
+    left: 20px;
+    top: 638px;
+}
